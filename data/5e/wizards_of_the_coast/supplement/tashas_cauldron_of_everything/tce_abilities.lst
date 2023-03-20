@@ -116,3 +116,10 @@ Rend Mind		KEY:Roguish Archetype ~ Soulknife ~ Rend Mind		SOURCEPAGE:p.63	SORTKE
 
 ###Block: Feats
 Fighting Initiate		CATEGORY:FEAT	TYPE:Feat		SOURCEPAGE:p.80	PRETEXT:Prerequisite: Proficiency with a martial weapon	PREABILITY:1,CATEGORY=Internal,Weapon Proficiency ~ Martial	DESC:Your martial training has helped you develop a particular style of fighting. As a result, you learn one Fighting Style option of your choice from the fighter class. If you already have a style, the one you choose must be different. Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's fighting style with another one from the fighter class that you don't have.	BONUS:ABILITYPOOL|Fighting Style|1
+
+
+###Block: Attunement Selections
+# Ability Name						Category of Ability	Type			Var. Must Be Lower					Define Stat				Description																		Move			Clone Movement		Combat bonus							Save bonus		Stat bonus		Modify VAR									Weapon prof. bonus									Cost		Aspects
+Moon Sickle +1	CATEGORY:Attunement	TYPE:Attunement	PREVARGTEQ:Attunement_Moon_Sickle_1,1					PREVARLTEQ:Attuned_Item_Count,Attuned_Item_Max																																ABILITY:Special Ability|AUTOMATIC|This Character is Violating a Rule (Moon Sickle +1)|PREVAREQ:Attunement_Moon_Sickle_1,0																																			BONUS:VAR|Attuned_Item_Count|1																	COST:0
+Moon Sickle +2	CATEGORY:Attunement	TYPE:Attunement	PREVARGTEQ:Attunement_Moon_Sickle_2,1					PREVARLTEQ:Attuned_Item_Count,Attuned_Item_Max																																ABILITY:Special Ability|AUTOMATIC|This Character is Violating a Rule (Moon Sickle +2)|PREVAREQ:Attunement_Moon_Sickle_2,0																																			BONUS:VAR|Attuned_Item_Count|1																	COST:0
+Moon Sickle +3	CATEGORY:Attunement	TYPE:Attunement	PREVARGTEQ:Attunement_Moon_Sickle_3,1					PREVARLTEQ:Attuned_Item_Count,Attuned_Item_Max																																ABILITY:Special Ability|AUTOMATIC|This Character is Violating a Rule (Moon Sickle +3)|PREVAREQ:Attunement_Moon_Sickle_3,0																																			BONUS:VAR|Attuned_Item_Count|1																	COST:0
